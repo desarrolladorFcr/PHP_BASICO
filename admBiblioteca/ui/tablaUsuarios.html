@@ -1,0 +1,40 @@
+<table id="tablaUsuario" border="1">
+<caption>Usuarios del sistema</caption>
+<thead><tr><th>IDENTIFICACIÓN</th><th>NOMBRE</th><th>APELLIDO</th><th>TIPO</th><th></th></tr></thead>
+<tbody id="tBody"></tbody>
+<tfoot id="tfoot"></tfoot>
+</table>
+
+<table id="tablaModificar" ><tr><th><a href="#" id="actuUsuario">Actualizar</a></th>
+<th><a href="#" id="eliminarUsuario">Eliminar </a></th>
+<th><a href="#" id="crearUsuario">Crear</a></th>
+</tr>
+</table>
+
+<div id="formulario" title="Biblioteca central">
+<form>
+<p id="Encabezado"></p>
+<p><input id="nombre" placeholder="Nombre"> </p>
+<p><input id="apellido" placeholder="Apellido"> </p>
+<p><select id="selPriv">
+<option value=0 id="responsabilidad">Responsabilidad</option>
+</select> </p>
+<p><input id="clave" placeholder="contraseña"> </p>
+<p><a href="#" id="enviarForm">Enviar</a></p>
+</form>
+</div>
+
+<div id="formCrear" title="Biblioteca central">
+<form>
+<p id="EncabezadoCrear"></p>
+<p><input id="idUser" placeholder="Identificación usuario">  </p>
+<p><input id="nombreCrear" placeholder="Nombre"> </p>
+<p><input id="apellidoCrear" placeholder="Apellido"> </p>
+<p><select id="selPrivCrear">
+<option value=0 id="responsabilidadCrear">Responsabilidad</option>
+</select> </p>
+<p><input id="claveCrear" placeholder="contraseña"> </p>
+<p><input id="OKclave" placeholder="repita contraseña"> </p>
+<p><a href="#" id="enviarFormCrear">Enviar</a></p>
+</form>
+</div>

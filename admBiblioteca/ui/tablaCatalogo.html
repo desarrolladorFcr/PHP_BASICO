@@ -1,0 +1,25 @@
+<table id="tablaCatalogo" border="1">
+<caption>Catálogo Biblioteca Central</caption>
+<thead><tr><th>ISBN</th><th>TÍTULO</th><th>DESCRIPCIÓN</th><th>GÉNERO</th> </tr></thead>
+<tbody id="tbody"> </tbody>
+<tfoot></tfoot>
+</table>
+
+<table id="tablaCUD">
+<tr><th><a href="#" id="linkActualizar">Actualizar</a></th>
+<th><a href="#" id="linkCrear">Crear</a></th>
+<th><a href="#" id="linkEliminar">Eliminar</a></th></tr>      
+</table>
+
+<div id = "formCatalogo" style="display:none;">
+<form action="#">
+<p id="titulo"> </p>
+<p> <input id="nombreLibro" placeholder="Nombre Libro"> </p>
+<p> <textarea rows="5" cols="15" placeholder="Descripción Libro" id="desc"></textarea> </p>
+<p> <select id="optGenero"> 
+<option value=0>Seleccione Genero</option>
+</select>  
+</p>
+<a href="#" id="enviarForm"> Enviar</a>
+</form>
+</div>
